@@ -1,0 +1,8 @@
+#!/Users/abderrahmanecharrade/Library/CloudStorage/OneDrive-UniversitätMannheim/04_Semester/IE-663_InformationRetrieval-Websearch/04_Project_IE-691/TREC-Project/IRWS-Project-HWS22/.irws-project/bin/python
+# -*- coding: utf-8 -*-
+import re
+import sys
+from dash.development.component_generator import cli
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(cli())
